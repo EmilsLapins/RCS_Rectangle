@@ -15,8 +15,9 @@ public class Square extends Rectangle {
 
 	@Override
 	public String toString() {
-		return "Square [getColor()=" + getColor() + ", getUnits()=" + getUnits() + ", getLength()=" + getLength()
-				+ ", isSquare()=" + isSquare() + ", area()=" + area() + ", perimeter()=" + perimeter() + "]";
+		return "Square [getUnits()=" + getUnits() + ", getLength()=" + getLength() + ", isSquare()=" + isSquare()
+				+ ", area()=" + area() + ", perimeter()=" + perimeter() 
+				+ ", getColor()=" + getColor() + "]";
 	}
 	
 	

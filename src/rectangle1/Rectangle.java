@@ -5,17 +5,11 @@ public class Rectangle extends Shape {
 		private int length;
 		private int width;
 		private Units units;
-		private String color;
 		
 		
 		
-		public String getColor() {
-			return color;
-		}
-
-		public void setColor(String color) {
-			this.color = color;
-		}
+		
+		
 
 		public Units getUnits() {
 			return units;
@@ -53,7 +47,7 @@ public class Rectangle extends Shape {
 			this.length = length;
 			this.width = width;
 			this.units = units;
-			this.color = color;
+			setColor(color);
 			
 		}
 		
@@ -85,8 +79,9 @@ public class Rectangle extends Shape {
 
 		@Override
 		public String toString() {
-			return "Rectangle [length=" + length + ", width=" + width + ", units=" + units + ", color=" + color
-					+ ", area()=" + area() + ", perimeter()=" + perimeter() + "]";
+			return "Rectangle [length=" + length + ", width=" + width + ", units=" + units + ", getUnits()="
+					+ getUnits() + ", isSquare()=" + isSquare() + ", area()=" + area() + ", perimeter()=" + perimeter()
+					+ ", getColor()=" + getColor() + "]";
 		}
 
 	
